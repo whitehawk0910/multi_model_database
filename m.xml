@@ -1,3 +1,3 @@
-FOR doc IN collection_name
+FOR doc IN colle
     COLLECT id = doc._key, name = doc[2], gender = doc[3], age = doc[4]
     RETURN { id, name, gender, age }
